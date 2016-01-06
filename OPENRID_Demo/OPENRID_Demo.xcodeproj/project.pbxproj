@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E412C7AD1C3D1EE100D90D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E412C7AC1C3D1EE100D90D59 /* main.m */; };
+		E412C7B01C3D1EE100D90D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E412C7AF1C3D1EE100D90D59 /* AppDelegate.m */; };
+		E412C7B31C3D1EE100D90D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E412C7B21C3D1EE100D90D59 /* ViewController.m */; };
+		E412C7B61C3D1EE100D90D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E412C7B41C3D1EE100D90D59 /* Main.storyboard */; };
+		E412C7B81C3D1EE100D90D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E412C7B71C3D1EE100D90D59 /* Assets.xcassets */; };
+		E412C7BB1C3D1EE100D90D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E412C7B91C3D1EE100D90D59 /* LaunchScreen.storyboard */; };
+		E412C7C51C3D1F2000D90D59 /* OPENRID.m in Sources */ = {isa = PBXBuildFile; fileRef = E412C7C41C3D1F2000D90D59 /* OPENRID.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E412C7A81C3D1EE100D90D59 /* OPENRID_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPENRID_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E412C7AC1C3D1EE100D90D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E412C7AE1C3D1EE100D90D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E412C7AF1C3D1EE100D90D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E412C7B11C3D1EE100D90D59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E412C7B21C3D1EE100D90D59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E412C7B51C3D1EE100D90D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E412C7B71C3D1EE100D90D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E412C7BA1C3D1EE100D90D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E412C7BC1C3D1EE100D90D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E412C7C31C3D1F2000D90D59 /* OPENRID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPENRID.h; sourceTree = "<group>"; };
+		E412C7C41C3D1F2000D90D59 /* OPENRID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPENRID.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E412C7A51C3D1EE100D90D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E412C79F1C3D1EE100D90D59 = {
+			isa = PBXGroup;
+			children = (
+				E412C7AA1C3D1EE100D90D59 /* OPENRID_Demo */,
+				E412C7A91C3D1EE100D90D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E412C7A91C3D1EE100D90D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E412C7A81C3D1EE100D90D59 /* OPENRID_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E412C7AA1C3D1EE100D90D59 /* OPENRID_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E412C7AE1C3D1EE100D90D59 /* AppDelegate.h */,
+				E412C7AF1C3D1EE100D90D59 /* AppDelegate.m */,
+				E412C7B11C3D1EE100D90D59 /* ViewController.h */,
+				E412C7B21C3D1EE100D90D59 /* ViewController.m */,
+				E412C7C21C3D1F2000D90D59 /* OPENRID */,
+				E412C7B41C3D1EE100D90D59 /* Main.storyboard */,
+				E412C7B71C3D1EE100D90D59 /* Assets.xcassets */,
+				E412C7B91C3D1EE100D90D59 /* LaunchScreen.storyboard */,
+				E412C7BC1C3D1EE100D90D59 /* Info.plist */,
+				E412C7AB1C3D1EE100D90D59 /* Supporting Files */,
+			);
+			path = OPENRID_Demo;
+			sourceTree = "<group>";
+		};
+		E412C7AB1C3D1EE100D90D59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E412C7AC1C3D1EE100D90D59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E412C7C21C3D1F2000D90D59 /* OPENRID */ = {
+			isa = PBXGroup;
+			children = (
+				E412C7C31C3D1F2000D90D59 /* OPENRID.h */,
+				E412C7C41C3D1F2000D90D59 /* OPENRID.m */,
+			);
+			path = OPENRID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E412C7A71C3D1EE100D90D59 /* OPENRID_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E412C7BF1C3D1EE100D90D59 /* Build configuration list for PBXNativeTarget "OPENRID_Demo" */;
+			buildPhases = (
+				E412C7A41C3D1EE100D90D59 /* Sources */,
+				E412C7A51C3D1EE100D90D59 /* Frameworks */,
+				E412C7A61C3D1EE100D90D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPENRID_Demo;
+			productName = OPENRID_Demo;
+			productReference = E412C7A81C3D1EE100D90D59 /* OPENRID_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E412C7A01C3D1EE100D90D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = idea;
+				TargetAttributes = {
+					E412C7A71C3D1EE100D90D59 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E412C7A31C3D1EE100D90D59 /* Build configuration list for PBXProject "OPENRID_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E412C79F1C3D1EE100D90D59;
+			productRefGroup = E412C7A91C3D1EE100D90D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E412C7A71C3D1EE100D90D59 /* OPENRID_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E412C7A61C3D1EE100D90D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412C7BB1C3D1EE100D90D59 /* LaunchScreen.storyboard in Resources */,
+				E412C7B81C3D1EE100D90D59 /* Assets.xcassets in Resources */,
+				E412C7B61C3D1EE100D90D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E412C7A41C3D1EE100D90D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412C7B31C3D1EE100D90D59 /* ViewController.m in Sources */,
+				E412C7C51C3D1F2000D90D59 /* OPENRID.m in Sources */,
+				E412C7B01C3D1EE100D90D59 /* AppDelegate.m in Sources */,
+				E412C7AD1C3D1EE100D90D59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E412C7B41C3D1EE100D90D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E412C7B51C3D1EE100D90D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E412C7B91C3D1EE100D90D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E412C7BA1C3D1EE100D90D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E412C7BD1C3D1EE100D90D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E412C7BE1C3D1EE100D90D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E412C7C01C3D1EE100D90D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OPENRID_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaodun.OPENRID-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E412C7C11C3D1EE100D90D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OPENRID_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gaodun.OPENRID-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E412C7A31C3D1EE100D90D59 /* Build configuration list for PBXProject "OPENRID_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412C7BD1C3D1EE100D90D59 /* Debug */,
+				E412C7BE1C3D1EE100D90D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E412C7BF1C3D1EE100D90D59 /* Build configuration list for PBXNativeTarget "OPENRID_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412C7C01C3D1EE100D90D59 /* Debug */,
+				E412C7C11C3D1EE100D90D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E412C7A01C3D1EE100D90D59 /* Project object */;
+}
